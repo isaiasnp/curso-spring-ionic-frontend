@@ -48,4 +48,8 @@ export class HomePage {
       },
       error => {});
   }
+ // vai para a pagina de signup
+  signup(){
+    this.navCtrl.push('SignupPage');
+  }  
 }
